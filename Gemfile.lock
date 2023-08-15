@@ -1,3 +1,9 @@
+PATH
+  remote: brunder
+  specs:
+    brunder (0.1.0)
+      jekyll (~> 4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,6 +78,7 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
+  brunder!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.12)
